@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PAN Card Management System</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      margin-top: 40px;
+      color: #007BFF;
+    }
+    .form-container {
+      margin-top: 30px;
+    }
+    input[type="text"], input[type="date"] {
+      padding: 10px;
+      width: 300px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    table {
+      margin: 40px auto;
+      width: 80%;
+      border-collapse: collapse;
+      background-color: white;
+    }
+    th, td {
+      padding: 12px;
+      border: 1px solid #ddd;
+      text-align: center;
+    }
+    th {
+      background-color: #f1f1f1;
+    }
+  </style>
+</head>
+<body>
+
+<h1>PAN Card Management System</h1>
+
+<div class="form-container">
+  <form>
+    <input type="text" placeholder="Enter Holder Name" required><br>
+    <input type="text" placeholder="Enter PAN Number" required><br>
+    <input type="date" placeholder="Date of Issue" required><br>
+    <button type="submit">Save PAN Card</button>
+  </form>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th>Holder Name</th>
+      <th>PAN Number</th>
+      <th>Date of Issue</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Rahul Sharma</td>
+      <td>ABCDE1234F</td>
+      <td>2018-04-12</td>
+    </tr>
+    <tr>
+      <td>Anjali Verma</td>
+      <td>WXYZ5678K</td>
+      <td>2019-12-25</td>
+    </tr>
+    <tr>
+      <td>Sunil Dube</td>
+      <td>PQRST9876Z</td>
+      <td>2021-09-05</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>
